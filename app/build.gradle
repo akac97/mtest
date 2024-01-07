@@ -129,7 +129,7 @@ dependencies {
         // org.bouncycastle:bcprov-jdk15to18 instead.
         exclude group: 'org.bouncycastle', module: 'bcprov-jdk15on'
     }
-    implementation ('com.hierynomus:sshj:0.35.0') {
+    implementation ('com.hierynomus:sshj:0.37.0') {
         // org.bouncycastle:bcprov-jdk15on uses bytecode version unsupported by Jetifier, so use
         // org.bouncycastle:bcprov-jdk15to18 instead.
         exclude group: 'org.bouncycastle', module: 'bcprov-jdk15on'
